@@ -58,7 +58,13 @@ button {
 button:hover {
   cursor: none;
   background-color: #646cff;
-  color: white
+  color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
 }
 
 #cursor {

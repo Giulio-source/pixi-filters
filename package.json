@@ -13,7 +13,8 @@
     "vite": "^4.1.0"
   },
   "dependencies": {
-    "pixi-filters": "^5.2.0",
-    "pixi.js": "^7.2.0"
+    "gsap": "3.11.4",
+    "pixi-filters": "5.2.0",
+    "pixi.js": "7.2.0"
   }
 }
