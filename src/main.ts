@@ -16,6 +16,8 @@ import {
 import * as PIXI from "pixi.js";
 import { Color, Container } from "pixi.js";
 import { handleCustomCursor } from "./cursor";
+import backgroundUrl from "../public/background.jpeg";
+
 import "./style.css";
 
 // Handle cursor
@@ -28,7 +30,7 @@ document.body.appendChild(app.view);
 let container = new Container();
 
 // Add background image
-let sprite = PIXI.Sprite.from("/background.jpeg");
+let sprite = PIXI.Sprite.from(backgroundUrl);
 sprite.width = window.innerWidth;
 sprite.anchor.set(0.5);
 sprite.position.set(app.screen.width / 2, app.screen.height / 2);
